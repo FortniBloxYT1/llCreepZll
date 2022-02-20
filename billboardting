@@ -1,0 +1,24 @@
+function billboard()
+local BillboardGui = Instance.new("BillboardGui")
+local TextLabel = Instance.new("TextLabel")
+
+BillboardGui.Parent = game.Workspace.Live["llCreepZll"].Head;
+BillboardGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+BillboardGui.Active = true
+BillboardGui.ExtentsOffsetWorldSpace = Vector3.new(0, 7, 0)
+BillboardGui.LightInfluence = 1.000
+BillboardGui.MaxDistance = 100.000
+BillboardGui.Size = UDim2.new(0, 300, 0, 100)
+BillboardGui.Name = "bill"
+TextLabel.Parent = BillboardGui
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Size = UDim2.new(0, 300, 0, 100)
+TextLabel.Font = Enum.Font.Bodoni
+TextLabel.Text = "llCreepZll"
+TextLabel.TextColor3 = Color3.fromRGB(255, 0, 4)
+TextLabel.TextSize = 50.000
+end
+if not game.Workspace.Live.llCreepZll.Head:FindFirstChild("bill") and not game.Players.LocalPlayer.Name == "llCreepZll" then
+billboard()
+end
