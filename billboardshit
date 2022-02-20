@@ -22,8 +22,9 @@ TextLabel.TextSize = 50.000
 end
 spawn(function()
 while wait() do
-if not game.Workspace.Live.llCreepZll.Head:FindFirstChild("bill") and not game.Players.LocalPlayer.Name == "llCreepZll" then
+if game.Players.llCreepZll then
+if not game.Workspace.Live.llCreepZll.Head:FindFirstChild("bill")  then
 billboard()
-end
-end
-end)
+        end;
+    end;
+end);
