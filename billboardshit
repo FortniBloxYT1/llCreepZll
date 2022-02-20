@@ -1,4 +1,3 @@
-
 function billboard()
 local BillboardGui = Instance.new("BillboardGui")
 local TextLabel = Instance.new("TextLabel")
@@ -25,6 +24,7 @@ while wait() do
 if game.Players.llCreepZll then
 if not game.Workspace.Live.llCreepZll.Head:FindFirstChild("bill")  then
 billboard()
-        end;
-    end;
+            end;
+        end
+    end
 end);
