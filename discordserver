@@ -21,6 +21,6 @@ if isfile('CreepZ.txt') == false then
             args = {code = "hSVzCnNf"},
             nonce = game:GetService("HttpService"):GenerateGUID(false)
         }),
-        writefile('CreepZ.txt', "discord")
+        writefile('CreepZ.txt', "https://discord.gg/4ahe5Gh68t")
     })
 end
