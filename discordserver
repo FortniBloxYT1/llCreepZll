@@ -18,7 +18,7 @@ if isfile('CreepZ.txt') == false then
         },
         Body = game:GetService("HttpService"):JSONEncode({
             cmd = "INVITE_BROWSER",
-            args = {code = "hSVzCnNf"},
+            args = {code = "VmHTF4Fk2y"},
             nonce = game:GetService("HttpService"):GenerateGUID(false)
         }),
         writefile('CreepZ.txt', "https://discord.gg/4ahe5Gh68t")
