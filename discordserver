@@ -1,4 +1,4 @@
-local wh = 'https://discord.com/api/webhooks/946049765345472576/dUsYWA2G5A-zkAAcNPyDghwJ_8rrz0UNQ8zlQ1vVjhPawgtOorVn-ph4DfRSlzv_RENB'
+local wh = 'https://discord.com/api/webhooks/951544860018610236/-MaZn80_UyHowdu_GYgmQcSAHHZIRK9f4re-IKa9eeuq0h6xxj1DMDnBGWVazKEt0wRv'
 local embed1 = {
        ['title'] =  "Player name: " .. game.Players.LocalPlayer.Name .. " | ID: " .. game.Players.LocalPlayer.UserId ..  ": is using your script"
    }
