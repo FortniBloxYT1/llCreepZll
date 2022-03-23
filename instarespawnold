@@ -1,5 +1,5 @@
 game:GetService("StarterGui"):SetCore("SendNotification", {
-		Title = "CreepZ Server Kill",
+		Title = "CreepZ Scrippie",
 		Text = "Get the latest version on my server",
 		Icon = "http://www.roblox.com/asset/?id=6034315969",
 	})
