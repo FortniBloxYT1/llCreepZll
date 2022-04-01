@@ -1,0 +1,10 @@
+local plr = game:GetService("\80\108\97\121\101\114\115").LocalPlayer
+for _, v in pairs(plr.PlayerGui.HUD.Bottom.Stats:GetDescendants()) do
+    if v.Name == "\86\97\108" then v.Text = "\48" end
+end
+plr.PlayerGui.HUD.Bottom.Stats.Namae.Val.Text = plr.Name
+plr.PlayerGui.HUD.Bottom.Stats.Race.Val.Text = plr.Character.Race.Value 
+plr.PlayerGui.HUD.FullSize.Money.Text = "\36\50\44\48\48\48"
+plr.PlayerGui.HUD.FullSize.Timer.Text = ""
+plr.Character.Shirt.ShirtTemplate = "\114\98\120\97\115\115\101\116\105\100\58\47\47\55\54\50\51\49\54\56\56\49"
+plr.Character.Pants.PantsTemplate = "\114\98\120\97\115\115\101\116\105\100\58\47\47\55\54\56\56\51\48\51\57\56"
