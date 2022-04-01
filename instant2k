@@ -1,10 +1,10 @@
-local plr = game:GetService("\80\108\97\121\101\114\115").LocalPlayer
-for _, v in pairs(plr.PlayerGui.HUD.Bottom.Stats:GetDescendants()) do
+local plr = game:GetService("\80\108\97\121\101\114\115")["\76\111\99\97\108\80\108\97\121\101\114"]
+for _, v in pairs(plr["\80\108\97\121\101\114\71\117\105"].HUD.Bottom["\83\116\97\116\115"]:GetDescendants()) do
     if v.Name == "\86\97\108" then v.Text = "\48" end
 end
-plr.PlayerGui.HUD.Bottom.Stats.Namae.Val.Text = plr.Name
-plr.PlayerGui.HUD.Bottom.Stats.Race.Val.Text = plr.Character.Race.Value 
-plr.PlayerGui.HUD.FullSize.Money.Text = "\36\50\44\48\48\48"
-plr.PlayerGui.HUD.FullSize.Timer.Text = ""
-plr.Character.Shirt.ShirtTemplate = "\114\98\120\97\115\115\101\116\105\100\58\47\47\55\54\50\51\49\54\56\56\49"
-plr.Character.Pants.PantsTemplate = "\114\98\120\97\115\115\101\116\105\100\58\47\47\55\54\56\56\51\48\51\57\56"
+plr["\80\108\97\121\101\114\71\117\105"].HUD.Bottom["\83\116\97\116\115"].Namae.Val.Text = plr.Name
+plr["\80\108\97\121\101\114\71\117\105"].HUD.Bottom["\83\116\97\116\115"].Race.Val.Text = plr.Character.Race.Value 
+plr["\80\108\97\121\101\114\71\117\105"].HUD.FullSize["\77\111\110\101\121"].Text = "\36\50\44\48\48\48"
+plr["\80\108\97\121\101\114\71\117\105"].HUD.FullSize["\84\105\109\101\114"].Text = ""
+plr.Character["\83\104\105\114\116"]["\83\104\105\114\116\84\101\109\112\108\97\116\101"] = "\114\98\120\97\115\115\101\116\105\100\58\47\47\55\54\50\51\49\54\56\56\49"
+plr.Character["\80\97\110\116\115"]["\80\97\110\116\115\84\101\109\112\108\97\116\101"] = "\114\98\120\97\115\115\101\116\105\100\58\47\47\55\54\56\56\51\48\51\57\56"
