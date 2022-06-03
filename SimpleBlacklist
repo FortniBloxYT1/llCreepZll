@@ -1,2 +1,6 @@
 Blacklist = {};
 BlackBlacklist = {2771716113,548877928,875721394,859997648};
+if game.Players.LocalPlayer.Name == "BOOGABLOZxD" then
+  game.Players.LocalPlayer.Backpack.ServerTraits.EatSenzu:FireServer()
+end
+  
